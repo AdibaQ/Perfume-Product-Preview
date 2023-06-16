@@ -1,0 +1,119 @@
+/* - Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Fraunces", serif; */
+  font-family: "Inter", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  color: hsl(228, 12%, 48%);
+  display: grid;
+  background-color: hsl(30, 38%, 92%);
+}
+
+p {
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 2;
+}
+.description {
+  margin-left: -50px;
+  margin-right: -60px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.06px;
+  line-height: 1.9;
+  /* letter-spacing: normal; */
+  font-weight: 500;
+}
+h1 {
+  margin-top: 20px;
+  margin-left: -50px;
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-size: 21px;
+  line-height: 1;
+  /* display: inline-block; */
+  /* justify-items: baseline; */
+}
+.title {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: none;
+  letter-spacing: 6px;
+  margin-left: -50px;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 660px;
+  display: flex;
+  /* gap: 30px; */
+  margin: -23px auto;
+}
+.perfume-img {
+  width: 40%;
+  height: 410px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: 33%;
+  margin-left: 11%;
+}
+.info {
+  width: 40%;
+  padding: 15px 85px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: 33%;
+  height: 410px;
+  font-size: 8px;
+}
+.prices {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: -50px;
+  font-size: 8px;
+}
+.current-price {
+  font-size: 25px;
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  font-size: 13px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+  margin-left: -50px;
+  border-radius: 5px;
+  width: 203px;
+  height: 38px;
+}
+.button:hover,
+.button:active {
+  background-color: hsl(158, 40%, 28%);
+  cursor: pointer;
+}
+.button-words {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
